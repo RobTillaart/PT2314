@@ -13,11 +13,11 @@
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/RobTillaart/PT2314.git",
+    "url": "https://github.com/RobTillaart/PT2314.git"
   },
   "version": "0.1.0",
   "license": "MIT",
-  "frameworks": "arduino",
+  "frameworks": "*",
   "platforms": "*",
   "headers": "PT2314.h"
 }
