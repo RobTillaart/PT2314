@@ -144,14 +144,14 @@ CHeck datasheet for mapping.
 - **void setAttnRight(uint8_t value = 31)** set the right attenuation from 0..31.
 - **uint8_t getAttnRight()** get current right attenuation level.
 - **void setAttn(uint8_t attn)** set all channels in one call.
-- **void setAttn(uint8_t attnLeft, uint8_t attnRight)** set both in one call
-but separate values.
 
 
 Formula attenuation:
 ```cpp
 Attn = value * -1.25;  //  dB  0..-37.50,  31 ==> MUTE.
 ```
+
+----
 
 ## Interface PT7313
 

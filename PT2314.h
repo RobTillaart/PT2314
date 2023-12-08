@@ -3,7 +3,7 @@
 //    FILE: PT2314.h
 //  AUTHOR: Rob Tillaart
 //    DATE: 2023-07-30
-// VERSION: 0.1.2
+// VERSION: 0.2.0
 // PURPOSE: Arduino library for PT2314 i2C 4 channel audio processor.
 //     URL: https://github.com/RobTillaart/PT2314
 
@@ -12,7 +12,7 @@
 #include "Wire.h"
 
 
-#define PT2314_LIB_VERSION                   (F("0.1.2"))
+#define PT2314_LIB_VERSION                   (F("0.2.0"))
 
 
 class PT2314
@@ -49,7 +49,7 @@ public:
   void    setAttnRight(uint8_t value = 31);  //  0..31
   uint8_t getAttnRight();
 
-  //  set both to same level
+  //  set all to same level
   void    setAttn(uint8_t attn);
 
 
